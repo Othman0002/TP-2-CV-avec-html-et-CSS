@@ -1,24 +1,13 @@
 # TP-2-CV-avec-html-et-CSS
 mon cv professionnel ( html , css)
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV-OTHMAN-BAHAMMOU-SMI</title>
+    <meta name="viewport" content="width=device-width, ">
+    <title>CV - Étudiant en SMI</title>
     <style>
-        /* Style général */
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-        }
-        
-        /* En-tête */
         header {
             text-align: center;
             margin-bottom: 30px;
@@ -27,17 +16,16 @@ mon cv professionnel ( html , css)
         }
         
         h1 {
-            color: #2c3e50;
+            color=green;
             margin-bottom: 5px;
         }
         
         .titre {
-            color: #3498db;
+            color: bleu;
             font-weight: normal;
             margin-top: 0;
         }
         
-        /* Sections */
         section {
             margin-bottom: 25px;
             background: white;
@@ -47,27 +35,25 @@ mon cv professionnel ( html , css)
         }
         
         h2 {
-            color: #3498db;
+            color: bleu;
             border-bottom: 1px solid #eee;
             padding-bottom: 5px;
         }
         
-        /* Expériences et formations */
         .item {
             margin-bottom: 15px;
         }
         
         .date {
             font-weight: bold;
-            color: #7f8c8d;
+            color: green;
         }
         
         .poste {
             font-weight: bold;
-            color: #2c3e50;
+            color: green;
         }
         
-        /* Compétences */
         ul {
             padding-left: 20px;
         }
@@ -76,20 +62,17 @@ mon cv professionnel ( html , css)
             margin-bottom: 5px;
         }
         
-        /* Pied de page */
         footer {
             text-align: center;
             margin-top: 30px;
-            color: #7f8c8d;
-            font-size: 0.9em;
+    font-size: 0.9em;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>BAHAMMOU OTHMAN</h1>
-        <p class="titre">Étudiant en Sciences Mathématiques et Informatique (SMI)</p>
-        <p>✉️ othman.bahammou@email.com | 📞 +212 664-210678 | 🌍 Ouarzazate, Maroc</p>
+        <h1>Othman Bahammou</h1>
+        <p class="titre">Étudiant en Sciences Mathématiques et Informatique</p>
     </header>
 
     <section>
@@ -107,8 +90,8 @@ mon cv professionnel ( html , css)
         
         <div class="item">
             <span class="date">2021 - 2022</span>
-            <p class="poste">Baccalauréat Sciences physiques A</p>
-            <p>Lycée Assou oubaslam saghrou, tinghir</p>
+            <p class="poste">Baccalauréat Sciences Physiques A</p>
+            <p>Lycée Assou oubaslam saghrou, Tinghir</p>
             <p>Mention : Bien</p>
         </div>
     </section>
@@ -175,7 +158,8 @@ mon cv professionnel ( html , css)
     </section>
 
     <footer>
-        <p>Dernière mise à jour : janvier 2024</p>
+        <p>Contact : othmanbahammou2@example.com</p>
+        <p>Tele: 0664210678</p>
     </footer>
 </body>
 </html>
